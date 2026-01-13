@@ -61,9 +61,8 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.03);
         }
         .nav-container { display: flex; align-items: center; justify-content: space-between; }
-        .logo-wrapper { display: flex; align-items: center; gap: 10px; flex-shrink: 0;
-
-            font-family: 'Bungee', sans-serif;}
+        .logo-wrapper { display: flex; align-items: center; gap: 10px; flex-shrink: 0;}
+        .logo-font { font-family: 'Bungee', sans-serif;}
         .logo-wrapper img { height: 35px; width: auto; display: block; }
 
         .brand-name {
@@ -406,7 +405,7 @@
 
 <nav class="navbar">
     <div class="container nav-container">
-        <a href="#" class="logo-wrapper">
+        <a href="#" class="logo-wrapper logo-font">
             <img src="./assets/images/logo.svg" alt="Logo">
             <span class="brand-name">VietPlywood</span>
         </a>
@@ -753,7 +752,7 @@
     <div class="container">
         <div class="footer-grid">
             <div class="footer-column info-col">
-                <div class="footer-logo">
+                <div class="footer-logo logo-font">
                     <img src="./assets/images/logo.svg" alt="VIETPLYWOOD">
                     <span class="logo-text">VIETPLYWOOD</span>
                 </div>
@@ -804,9 +803,14 @@
         <div class="footer-bottom">
             <p class="copyright">© 2023 PlyMaster B2B Inc. All rights reserved.</p>
             <div class="footer-social">
-                <a href="https://www.linkedin.com/in/phan-tien-phuoc-a49934321/"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=61584549586039"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/phan-tien-phuoc-a49934321/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61584549586039" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
             </div>
+
         </div>
     </div>
 </footer>
