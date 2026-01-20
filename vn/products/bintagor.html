@@ -89,7 +89,7 @@
 
 
     <link rel="stylesheet" href="../../assets/css/base.css">
-    <link rel="stylesheet" href="../../assets/css/bintagor.css">
+    <link rel="stylesheet" href="../../assets/css/product_detail.css">
 
 </head>
 <body>
@@ -132,190 +132,255 @@
 </nav>
 
 <div class="body-page">
+
+    <!-- Breadcrumb -->
     <section class="breadcrumb">
         <div class="container">
-
-            <a href="../..">Trang chủ</a> / Sản phẩm
+            <a href="../../index.html">Trang chủ</a> /
+            <a href="./">Sản phẩm</a> /
+            <span>Ván ép mặt Bintangor</span>
         </div>
     </section>
 
+    <!-- Product main -->
+    <section class="product-detail">
+        <div class="container product-detail-grid">
 
-<section class="products-hero">
-    <div class="container">
-        <div class="products-hero-inner">
-            <h1>Danh mục Sản phẩm</h1>
-            <p>
-                Chất lượng ổn định · Sản xuất chuyên nghiệp · Tiêu chuẩn xuất khẩu
-            </p>
-            <p>
-                Giao hàng đúng tiến độ · Tiết kiệm chi phí
-            </p>
-            <div class="hero-actions">
-                <a href="../../assets/files/catalog_vn.pdf" download class="btn-outline btn-catalog-hero">Tải Catalog</a>
-                <a href="../contact/" class="btn-outline btn-contact-hero">Liên hệ chúng tôi</a>
+            <!-- Gallery -->
+            <div class="product-gallery">
+
+                <div class="gallery-wrapper">
+                    <button class="gallery-btn prev">‹</button>
+
+                    <img
+                            class="product-main-image"
+                            src="../../assets/images/bintagor_1.png"
+                            alt="Ván ép mặt Bintangor">
+
+                    <button class="gallery-btn next">›</button>
+                </div>
+
+                <div class="product-thumbs">
+                    <img src="../../assets/images/bintagor_1.png">
+                    <img src="../../assets/images/bintagor_2.png">
+                    <img src="../../assets/images/bintagor_3.png">
+                    <img src="../../assets/images/bintagor_4.png">
+                    <img src="../../assets/images/bintagor_5.png">
+                </div>
+            </div>
+
+
+            <!-- Info -->
+            <div class="product-info">
+                <h1>Ván ép mặt Bintangor</h1>
+                <span class="product-tag">#bintangor</span>
+
+                <p class="product-desc">
+                    Ván ép mặt Bintangor là loại ván ép phủ veneer Bintangor tự nhiên,
+                    mang đến độ thẩm mỹ cao, màu sắc ổn định, phù hợp cho nhiều ứng dụng
+                    nội thất và xây dựng.
+                </p>
+
+                <!-- Quick specs -->
+                <div class="product-quick-spec">
+
+                    <div class="spec-group">
+                        <label>Kích thước</label>
+                        <div class="spec-options">
+                            <button class="spec-btn">1220 × 2440</button>
+                            <button class="spec-btn">Theo yêu cầu</button>
+                        </div>
+                    </div>
+
+                    <div class="spec-group">
+                        <label>Mặt phủ</label>
+                        <div class="spec-options">
+                            <button class="spec-btn">Mặt AA</button>
+                            <button class="spec-btn">Mặt AB</button>
+                            <button class="spec-btn">Mặt BB</button>
+                        </div>
+                    </div>
+
+                    <div class="spec-group">
+                        <label>Độ dày</label>
+                        <div class="spec-options">
+                            <button class="spec-btn">13mm – 8 lớp</button>
+                            <button class="spec-btn">15mm – 9 lớp</button>
+                            <button class="spec-btn">17mm – 11 lớp</button>
+                            <button class="spec-btn">20mm – 13 lớp</button>
+                            <button class="spec-btn">3mm – 3 lớp</button>
+                            <button class="spec-btn">Theo yêu cầu</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="../contact/" class="btn-primary">Yêu cầu báo giá</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Tabs -->
+    <section class="product-tabs">
+        <div class="container">
+            <div class="tabs-header">
+                <button class="tab-btn active" data-tab="spec">Thông số chi tiết</button>
+                <button class="tab-btn" data-tab="feature">Đặc điểm chung</button>
             </div>
         </div>
-    </div>
+    </section>
 
-</section>
+    <!-- Tab contents -->
+    <section class="product-detail-content">
+        <div class="container">
 
-<section class="products-section">
-    <div class="container">
-        <h2 class="section-title">Ván ép bóc</h2>
+            <!-- Thông số chi tiết -->
+            <div class="tab-content active" id="tab-spec">
+                <div class="product-detail-bottom">
 
-        <div class="products-grid">
+                    <div class="product-spec-table">
+                        <h3>Thông số kỹ thuật</h3>
+                        <table>
+                            <tr>
+                                <td>Loại lõi</td>
+                                <td>Gỗ keo</td>
+                            </tr>
+                            <tr>
+                                <td>Loại keo</td>
+                                <td>Keo E2</td>
+                            </tr>
+                            <tr>
+                                <td>Dung sai độ dày</td>
+                                <td>± 0.5 mm</td>
+                            </tr>
+                            <tr>
+                                <td>Loại mặt phủ</td>
+                                <td>AA / AB / BB</td>
+                            </tr>
+                            <tr>
+                                <td>Kích thước</td>
+                                <td>1220 × 2440mm</td>
+                            </tr>
+                            <tr>
+                                <td>Độ dày</td>
+                                <td>3 – 20mm</td>
+                            </tr>
+                            <tr>
+                                <td>Đặc điểm nổi bật</td>
+                                <td>
+                                    <ul>
+                                        <li>Độ bền cao, chịu lực tốt</li>
+                                        <li>Bề mặt ổn định, màu sắc đều</li>
+                                        <li>Dễ thi công, gia công</li>
+                                        <li>Phù hợp sản xuất số lượng lớn</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
 
-            <article class="product-card">
-                <img src="../../assets/images/van_ep_phu_phim_1.png" alt="Ván ép phủ phim">
+                    <div class="product-applications">
+                        <h3>Ứng dụng thực tế</h3>
+                        <div class="app-tags">
+                            <div class="app-tag">
+                                <img src="../../assets/images/ghe.png" alt="">
+                                <span>Nội thất</span>
+                            </div>
+                            <div class="app-tag">
+                                <img src="../../assets/images/tu.png" alt="">
+                                <span>Tủ kệ</span>
+                            </div>
+                            <div class="app-tag">
+                                <img src="../../assets/images/vach_ngan.png" alt="">
+                                <span>Vách ngăn</span>
+                            </div>
+                            <div class="app-tag">
+                                <img src="../../assets/images/sua_chua.png" alt="">
+                                <span>Xây dựng nhẹ</span>
+                            </div>
+                        </div>
+                    </div>
 
-                <h3>Ván ép phủ phim</h3>
+                </div>
+            </div>
+
+            <!-- Đặc điểm chung -->
+            <div class="tab-content" id="tab-feature">
+                <h2>VÁN ÉP MẶT BINTANGOR</h2>
+
                 <p>
-                    1220 × 2440mm </p>
-                <ul class="product-meta">
+                    Ván ép mặt Bintangor là lựa chọn quen thuộc của các xưởng nội thất,
+                    nhà máy bao bì và doanh nghiệp sản xuất đồ gỗ nhờ giá thành cạnh tranh,
+                    tính ổn định cao và khả năng đáp ứng sản xuất hàng loạt.
+                </p>
 
-                    <li>
-                        <img src="../../assets/images/product_icon_1.svg" alt="">
-                        12 – 18mm
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_2.svg" alt="">
-                        7 – 11 lớp
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_3.svg" alt="">
-                        AA/AB/BB
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_4.svg" alt="">
-                        Keo Min 10%
-                    </li>
-                </ul>
-
-                <a href="product_1.html" class="btn-detail">Xem chi tiết</a>
-            </article>
-
-            <article class="product-card">
-                <img src="../../assets/images/van_ep_mat_bintagor_1.png" alt="Ván ép mặt Bintangor">
-
-                <h3>Ván ép mặt Bintangor</h3>
+                <h3>1. Đặc điểm bề mặt</h3>
                 <p>
-                    1220 × 2440mm </p>
-                <ul class="product-meta">
+                    Veneer Bintangor có sắc nâu đỏ tự nhiên, vân gỗ nhẹ, bề mặt khá dễ
+                    xử lý, phù hợp sơn, phủ PU hoặc giữ mộc.
+                </p>
 
-                    <li>
-                        <img src="../../assets/images/product_icon_1.svg" alt="">
-                        3 – 20mm
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_2.svg" alt="">
-                        3 – 13 lớp
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_3.svg" alt="">
-                        AA/AB/BB
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_4.svg" alt="">
-                        Keo E2
-                    </li>
-                </ul>
-
-                <a href="product_2.html" class="btn-detail">Xem chi tiết</a>
-            </article>
-
-            <article class="product-card">
-                <img src="../../assets/images/okoume_1.png" alt="Ván ép mặt Okoume">
-
-                <h3>Ván ép mặt Okoume</h3>
+                <h3>2. Ưu điểm trong sản xuất</h3>
                 <p>
-                    1220 × 2440mm </p>
-                <ul class="product-meta">
+                    Ván ít cong vênh nếu được sản xuất từ lõi gỗ keo chất lượng,
+                    kiểm soát độ ẩm tốt và quy trình ép tiêu chuẩn.
+                </p>
 
-                    <li>
-                        <img src="../../assets/images/product_icon_1.svg" alt="">
-                        3 – 20mm
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_2.svg" alt="">
-                        3 – 13 lớp
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_3.svg" alt="">
-                        AA/AB/BB
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_4.svg" alt="">
-                        Keo Min 10%
-                    </li>
+                <h3>3. Vì sao nên chọn Bintangor?</h3>
+                <ul>
+                    <li>Giá thành cạnh tranh</li>
+                    <li>Dễ gia công, xử lý nhanh</li>
+                    <li>Tính thẩm mỹ ổn định</li>
+                    <li>Phù hợp đơn hàng container</li>
                 </ul>
-
-                <a href="product_1.html" class="btn-detail">Xem chi tiết</a>
-            </article>
-
-            <article class="product-card">
-                <img src="../../assets/images/phu_phim_1.png" alt="Ván ép mặt trắngVán ép phủ phim">
-
-                <h3>"Ván ép mặt trắng</h3>
-                <p>
-                    1220 × 2440mm </p>
-                <ul class="product-meta">
-
-                    <li>
-                        <img src="../../assets/images/product_icon_1.svg" alt="">
-                        2 – 3mm
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_2.svg" alt="">
-                        3 lớp
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_3.svg" alt="">
-                        AA/AB/BB
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_4.svg" alt="">
-                        Keo Min 10%
-                    </li>
-                </ul>
-
-                <a href="product_1.html" class="btn-detail">Xem chi tiết</a>
-            </article>
-
-            <article class="product-card">
-                <img src="../../assets/images/veneer_1.png" alt="Ván ép mặt xoan Veneer">
-
-                <h3>Ván ép mặt xoan Veneer</h3>
-                <p>
-                    1220 × 2440mm </p>
-                <ul class="product-meta">
-
-                    <li>
-                        <img src="../../assets/images/product_icon_1.svg" alt="">
-                        12 – 18mm
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_2.svg" alt="">
-                        7 – 11 lớp
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_3.svg" alt="">
-                        AA/AB/BB
-                    </li>
-                    <li>
-                        <img src="../../assets/images/product_icon_4.svg" alt="">
-                        Keo Min 10%
-                    </li>
-                </ul>
-
-                <a href="product_1.html" class="btn-detail">Xem chi tiết</a>
-            </article>
-
+            </div>
 
         </div>
-    </div>
-</section>
+    </section>
+
+    <!-- Related products -->
+    <section class="related-products">
+        <div class="container">
+            <h3>Sản phẩm liên quan</h3>
+
+            <div class="products-grid">
+
+                <a href="film-faced.html" class="product-link">
+                    <article class="product-card">
+                        <img src="../../assets/images/products/film-faced.png" alt="">
+                        <h4>Ván ép phủ phim</h4>
+                    </article>
+                </a>
+
+                <a href="okoume.html" class="product-link">
+                    <article class="product-card">
+                        <img src="../../assets/images/products/okoume.png" alt="">
+                        <h4>Ván ép mặt Okoume</h4>
+                    </article>
+                </a>
+
+                <a href="white-face.html" class="product-link">
+                    <article class="product-card">
+                        <img src="../../assets/images/products/white-face.png" alt="">
+                        <h4>Ván ép mặt trắng</h4>
+                    </article>
+                </a>
+
+                <a href="veneer.html" class="product-link">
+                    <article class="product-card">
+                        <img src="../../assets/images/products/veneer.png" alt="">
+                        <h4>Ván ép mặt xoan Veneer</h4>
+                    </article>
+                </a>
+
+            </div>
+        </div>
+    </section>
 
 </div>
+
+
 <footer class="footer-section">
     <div class="container">
         <div class="footer-grid">
@@ -385,6 +450,8 @@
 
 
 <script src="../../assets/js/header.js"></script>
+<script src="../../assets/js/product_detail.js"></script>
+
 
 
 </body>
