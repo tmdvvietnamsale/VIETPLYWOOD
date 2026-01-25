@@ -115,6 +115,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 .breadcrumb{
+    padding: 20px 0 20px 0;
     margin-bottom: 20px;font-size: medium;
 }
 
