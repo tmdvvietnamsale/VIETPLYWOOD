@@ -31,26 +31,48 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "CollectionPage",
-            "name": "Catalog sản phẩm ván ép VIETPLYWOOD",
-            "description": "Catalog giới thiệu các dòng sản phẩm ván ép xuất khẩu của VIETPLYWOOD, bao gồm thông số kỹ thuật và hình ảnh chi tiết.",
-            "url": "https://vietplywood.com/vn/catalog/",
-            "inLanguage": "vi-VN",
-            "isPartOf": {
-                "@type": "WebSite",
-                "name": "VIETPLYWOOD",
-                "url": "https://vietplywood.com"
-            },
-            "about": {
-                "@type": "Organization",
-                "name": "VIETPLYWOOD",
-                "url": "https://vietplywood.com",
-                "logo": "https://vietplywood.com/assets/images/logo.svg"
-            }
+            "@graph": [
+                {
+                    "@type": "Organization",
+                    "@id": "https://yourdomain.com/#organization",
+                    "name": "Viet Plywood",
+                    "url": "https://yourdomain.com/",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://yourdomain.com/assets/images/logo.png"
+                    },
+                    "description": "Viet Plywood là doanh nghiệp sản xuất và xuất khẩu ván ép, plywood, veneer phục vụ thị trường trong nước và quốc tế.",
+                    "foundingDate": "2015",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressCountry": "VN"
+                    },
+                    "contactPoint": {
+                        "@type": "ContactPoint",
+                        "contactType": "sales",
+                        "email": "sales@yourdomain.com"
+                    },
+                    "sameAs": [
+                        "https://www.facebook.com/yourpage",
+                        "https://www.linkedin.com/company/yourcompany"
+                    ]
+                },
+                {
+                    "@type": "AboutPage",
+                    "@id": "https://yourdomain.com/about/#aboutpage",
+                    "url": "https://yourdomain.com/about/",
+                    "name": "Giới thiệu về Viet Plywood",
+                    "isPartOf": {
+                        "@id": "https://yourdomain.com/#organization"
+                    },
+                    "about": {
+                        "@id": "https://yourdomain.com/#organization"
+                    },
+                    "description": "Trang giới thiệu về Viet Plywood – tầm nhìn, sứ mệnh, năng lực sản xuất và định hướng phát triển bền vững."
+                }
+            ]
         }
     </script>
-
-
 
     <link rel="stylesheet" href="../../assets/css/base.css">
     <link rel="stylesheet" href="../../assets/css/blogs.css">
