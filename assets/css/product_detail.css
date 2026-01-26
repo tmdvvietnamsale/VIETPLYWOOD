@@ -252,7 +252,7 @@ a {
 }
 
 .product-spec-table ul {
-    padding-left: 18px;
+    padding: 0;
     margin: 0;
 }
 
@@ -344,12 +344,6 @@ a {
     width: 30%;
     font-weight: bold;
     color: #5a3e2b;
-}
-
-/* danh sách trong ô */
-.product-spec-table ul {
-    margin: 0;
-    padding-left: 16px;
 }
 
 .product-spec-table li {

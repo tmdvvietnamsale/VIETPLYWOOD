@@ -27,11 +27,11 @@
 
 
     // button option
-    document.querySelectorAll('.spec-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            btn.classList.toggle('active');
-        });
-    });
+    // document.querySelectorAll('.spec-btn').forEach(btn => {
+    //     btn.addEventListener('click', () => {
+    //         btn.classList.toggle('active');
+    //     });
+    // });
 
 
 
