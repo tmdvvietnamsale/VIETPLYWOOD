@@ -66,6 +66,7 @@ a { text-decoration: none; color: inherit; }
 .nav-links li a:hover, .nav-links li a.active {
     background: var(--primary-dark);
     color: var(--white) !important;
+    font-weight: bold;
 }
 
 .menu-toggle { display: none; font-size: 1.3rem; color: var(--primary-dark); cursor: pointer; padding: 5px; }

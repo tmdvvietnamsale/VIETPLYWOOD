@@ -11,8 +11,17 @@ langSelect.addEventListener('click', (e) => {
     langSelect.classList.toggle('open');
 });
 document.querySelectorAll('.option').forEach(opt => {
-    opt.addEventListener('click', () => {
-        document.getElementById('currentLang').innerText = opt.dataset.value;
+    opt.addEventListener('click', (e) => {
+        // 2. Tìm thẻ <a> bên trong thẻ .option vừa click
+        const link = opt.querySelector('a');
+
+        if (link) {
+            // Ngăn chặn hành vi mặc định nếu cần để tránh xung đột
+            // e.preventDefault();
+
+            // Ép trình duyệt chuyển hướng theo href của thẻ a
+            window.location.href = link.href;
+        }
     });
 });
 window.onclick = () => langSelect.classList.remove('open');
