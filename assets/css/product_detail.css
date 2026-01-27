@@ -114,6 +114,7 @@ a {
 }
 
 .spec-btn {
+    pointer-events: none;
     border: none;
     background: #f1e7dc;
     padding: 6px 12px;
