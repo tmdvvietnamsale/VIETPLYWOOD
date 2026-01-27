@@ -235,7 +235,7 @@ a {
     width: 100%;
     background: #fff;
     border-radius: 8px;
-    border-collapse: collapse;
+    border: 1px solid #BEA48E; /* viền ngoài bảng */
     overflow: hidden;
 }
 

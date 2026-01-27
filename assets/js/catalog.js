@@ -44,6 +44,21 @@ function prevSlide() {
     resetAuto();
 }
 
+
+document.addEventListener("keydown", (e) => {
+    // tránh bắt phím khi đang gõ input/textarea
+    const tag = e.target.tagName.toLowerCase();
+    if (tag === "input" || tag === "textarea") return;
+
+    if (e.key === "ArrowRight") {
+        nextSlide();   // giữ resetAuto()
+    }
+
+    if (e.key === "ArrowLeft") {
+        prevSlide();   // giữ resetAuto()
+    }
+});
+
 function startAuto() {
     autoTimer = setInterval(nextSlide, 4500);
 }
