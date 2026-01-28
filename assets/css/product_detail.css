@@ -215,6 +215,9 @@ a {
 .product-detail-content {
     padding-top: 32px;
 }
+.tab-content p, li{
+    font-size: 14px;
+}
 
 .tab-content {
     display: none;
