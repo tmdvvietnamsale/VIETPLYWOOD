@@ -41,11 +41,13 @@ a {
 .product-main-image {
     width: 100%;
     height: 420px;
-
+    object-fit: contain; /* Giúp ảnh tự căn chỉnh tỉ lệ, không bị méo */
+    
     display: block;
     margin: 0 auto;
     background: #fff;
     border-radius: 8px;
+    border: 1px solid #eee; /* Thêm viền nhẹ để ảnh nổi bật hơn */
 }
 
 .product-thumbs {
