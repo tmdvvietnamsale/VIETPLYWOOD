@@ -6,13 +6,17 @@ const indicator = document.getElementById("indicator");
 let currentIndex = 0;
 let autoTimer = null;
 
+// Detect language and set catalog folder
+const isEnglish = window.location.pathname.includes("/en/");
+const catalogFolder = isEnglish ? "catalogs_en" : "catalogs";
+
 // CREATE SLIDES
 for (let i = 1; i <= totalSlides; i++) {
     const slide = document.createElement("div");
     slide.className = "slide";
     slide.innerHTML = `
         <img
-          src="../../assets/images/catalogs/${i}.png"
+          src="../../assets/images/${catalogFolder}/${i}.png"
           alt="Catalog vietplywood ${i}"
           loading="lazy"
           width="1200"
@@ -26,7 +30,7 @@ function updateUI() {
     track.style.transform = `translateX(-${currentIndex * 100}%)`;
     slider.style.setProperty(
         "--bg-image",
-        `url('../../assets/images/catalogs/${currentIndex + 1}.png')`
+        `url('../../assets/images/${catalogFolder}/${currentIndex + 1}.png')`
     );
     indicator.textContent = `${currentIndex + 1} / ${totalSlides}`;
 }
