@@ -93,7 +93,7 @@
     border: none;
     background: rgba(0,0,0,0.55);
     color: #ffffff;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     transition: background 0.2s ease, transform 0.2s ease;
 }
@@ -116,7 +116,7 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
-    font-size: 14px;
+    font-size: 18px;
     color: #ffffff;
     background: rgba(0,0,0,0.45);
     padding: 6px 12px;
@@ -151,14 +151,14 @@
     .slider-btn {
         width: 36px;
         height: 36px;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .slider-btn.prev { left: 10px; }
     .slider-btn.next { right: 10px; }
 
     .indicator {
-        font-size: 12px;
+        font-size: 15px;
         padding: 4px 10px;
     }
 }
