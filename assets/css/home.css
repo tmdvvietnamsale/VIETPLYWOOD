@@ -176,7 +176,7 @@
 
 /* --- 7. COUNTER SECTION --- */
 .counter-section {
-    min-height: calc(100vh - var(--navbar-height)); display: flex; flex-direction: column; justify-content: center; padding: 60px 0; position: relative;
+    min-height: calc(50vh - var(--navbar-height)); display: flex; flex-direction: column; justify-content: center; padding: 60px 0; position: relative;
     background-color: #3d2b1f;
     background-image: linear-gradient(90deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.45) 100%),
     url("../images/background_go.png");
